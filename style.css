@@ -1,0 +1,119 @@
+
+/* 
+	STYLE.CSS:
+	One stylesheet to rule them all.
+	
+	selector { property:value }
+	
+*/
+
+
+/* -------  General Styles ------- */
+/*the margin ensures that the google maps embedded element functions*/
+body {
+  margin: 0px;
+  background-image:url(images/backgrounds/groovepaper.png);
+}
+
+/*in the header I will add the height and color to fit the text */
+header {
+	height: 150px;
+	background-color:#ededed ;
+  
+}
+/*if the optima font doesn't work, the next option will be cursive*/
+.logo {
+  font-family: 'Optima', cursive;
+  font-size: 80px;
+  color: #9e676c;
+  text-align: center;
+  letter-spacing: -4;
+  margin: 0px;
+  padding: 20px 0 0 0;
+}
+
+header h2 {
+	font-family: 'Palatino';
+	color: #867985;
+	margin: 0px;
+	font-size: 19px;
+	text-align: center;
+}
+
+
+
+
+footer {
+  height: 140px;
+	background-color: #ededed;
+}
+
+
+section {
+	padding: 0 25%;
+  margin: 80px 0;
+}
+
+/* -------  Type ------- */
+
+h1, h2, h3 {
+  font-family: 'Optima', sans-serif;
+	color: #9e676c;
+  text-align: center;
+  font-weight: 500;
+}
+
+h1 { font-size: 30px; }
+h2 { font-size: 30px; }
+h3 { font-size: 30px; }
+
+
+
+p,li {
+ font-family: 'Palatino', sans-serif;
+ line-height: 1.5em;
+ margin-bottom: 0;
+}
+
+a {
+	font-weight: 700;
+}
+a:link { color: #38786a; }
+a:visited { color: #38786a; }
+a:hover { color: #867985; }
+a:active { color: #867985; }
+a:hover {
+	text-decoration: underline;	
+}
+em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+footer p {
+	color: #9e676c;	
+	text-align: center;
+  padding: 30px;
+  margin: 0;
+}
+
+/* -------  Elements ------- */
+
+img, iframe { 
+  width: 90%;	
+  border-radius: 8px;
+  border: 1px solid #c5c0b8;
+} 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* -------  Modifier styles ------- */
+
+.border-top {
+  padding-top: 80px;
+  border-top: 2px solid #867985;
+}
